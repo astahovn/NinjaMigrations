@@ -1,0 +1,12 @@
+<?php
+return [
+    'components' => [
+        'db' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'pgsql:host=localhost;dbname=ninja',
+            'username' => '',
+            'password' => '',
+            'charset' => 'utf8',
+        ],
+    ],
+];
